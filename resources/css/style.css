@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+
+main {
+    padding-top: 5vh;
+    text-align: center;
+    background-color: black;
+}
+
+
+h1 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+
+
+}
+
+h2 {
+    font-size: 34px;
+    font-weight: 300;
+}
+
+a {
+    font-size: 16px;
+    margin-bottom: 4vh;
+    color: aquamarine;
+}
+
+p {
+    font-size: 21px;
+    color: rgb(237, 232, 228);
+
+
+
+}
+
+.phone-frame {
+    width: 25vw;
+    height: 120vh;
+    border: 2px solid white;
+    border-style: double;
+    margin: auto;
+    border-radius: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    z-index: -1;
+box-shadow: -7px 0px grey;
+
+}
+
+.up {
+    height: 13vh;
+    margin: 0;
+    z-index: 1;
+    width: 23vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+}
+
+.video-frame {
+    height: 90vh;
+    width: 23vw;
+    padding: 0;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+
+    /* border: 1px solid white; */
+}
+
+
+
+.circle {
+    height: 1vh;
+    width: 0.5vw;
+
+    border-radius: 50%;
+
+    background-color: grey;
+
+}
+
+.rectangle {
+    height: 0.3vh;
+    width: 6vw;
+    background-color: rgb(109, 107, 107);
+    border-radius: 10%;
+    margin-right: 5vw;
+}
+
+.down {
+    height: 13vh;
+    width: 23vw;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    height: 10vh;
+    width: 5vw;
+    border-radius: 50%;
+    background-color: grey;
+}
+figure {
+    margin: 0;
+    padding: 0;
+    height: inherit;
+    width: inherit;
+    /* object-fit: cover; */
+
+}
+video {
+    height: 86vh;
+    width: 100%;
+    object-fit: fill;
+}
+figcaption {
+    color: white;
+    
+}
+
