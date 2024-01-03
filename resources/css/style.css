@@ -116,23 +116,6 @@ box-shadow: -7px 0px grey;
     border-radius: 50%;
     background-color: grey;
 }
-figure {
-    margin: 0;
-    padding: 0;
-    height: inherit;
-    width: inherit;
-    /* object-fit: cover; */
-
-}
-video {
-    height: 86vh;
-    width: 100%;
-    object-fit: fill;
-}
-figcaption {
-    color: white;
-    
-}
 
 .img-container {
     width: 70%;
@@ -151,9 +134,25 @@ img {
     min-width: 60%;
     object-fit: cover;
 }
-
 .fa-solid {
     margin-top: 5vh;
     font-size: 100px;
     color: whitesmoke
+}
+figure {
+    margin: 0;
+    padding: 0;
+    height: inherit;
+    width: inherit;
+    /* object-fit: cover; */
+
+}
+video {
+    height: 86vh;
+    width: 100%;
+    object-fit: fill;
+}
+figcaption {
+    color: white;
+    
 }
