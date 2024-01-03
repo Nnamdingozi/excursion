@@ -151,3 +151,9 @@ img {
     min-width: 60%;
     object-fit: cover;
 }
+
+.fa-solid {
+    margin-top: 5vh;
+    font-size: 100px;
+    color: whitesmoke
+}
