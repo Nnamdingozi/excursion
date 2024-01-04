@@ -52,7 +52,9 @@ p {
     align-items: center;
     padding: 0;
     z-index: -1;
+
 box-shadow: -7px 0px grey;
+
 
 }
 
@@ -76,8 +78,6 @@ box-shadow: -7px 0px grey;
     padding: 0;
     margin-top: 1vh;
     margin-bottom: 1vh;
-
-    /* border: 1px solid white; */
 }
 
 
@@ -126,33 +126,54 @@ box-shadow: -7px 0px grey;
 }
 
 img {
-
+    max-width: 100%;
+    height: auto;
+    object-fit: fill;
     max-width: inherit;
     max-height: inherit;
-    height: inherit;
     width: inherit;
     min-width: 60%;
-    object-fit: cover;
 }
 .fa-solid {
     margin-top: 5vh;
     font-size: 100px;
     color: whitesmoke
 }
+
 figure {
     margin: 0;
     padding: 0;
     height: inherit;
     width: inherit;
-    /* object-fit: cover; */
-
 }
+
 video {
     height: 86vh;
     width: 100%;
     object-fit: fill;
 }
+
+figcaption {
+    color: white;
+    font-size: 8px;
+
+}
+
+figcaption a {
+    font-size: 8px;
+}
+
+@media only screen and (max-width: 320px) {
+    figcaption {
+        font-size: 5px;
+    }
+
+    figcaption a {
+        font-size: 5px;
+    }
+
 figcaption {
     color: white;
     
+
 }
